@@ -339,7 +339,7 @@ function searchRelated(pages){
 
         if (post.date !== '1900-01-01'){
             date = new Date(post.date);
-            date = date.toLocaleString('en-US', {day: 'numeric', month:'long', year:'numeric'});
+            date = date.toLocaleString('es-ES', {day: 'numeric', month:'long', year:'numeric'});
         }
 
         if (post.category !== '') category = post.category;
