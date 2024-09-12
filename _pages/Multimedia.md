@@ -9,6 +9,8 @@ comments: false
 relatedpubs: false
 ---
 
+A continuación se muestra una colección de imágenes y grabaciones tomadas en actuaciones y ensayos de la JOSPE:
+
 {% assign number_printed = 0 %}
 {% for teampic in site.data.gallerylist %}
 
