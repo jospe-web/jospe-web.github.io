@@ -51,7 +51,9 @@
 <main>
     {{ content }}
     <!-- see https://giscus.app/ -->
+    {% if page.comments == true %}
     <div class="giscus" id="giscus" style="margin: 4rem auto;"></div>
+    {% endif %}
 
     {% if page.relatedpubs == true %}
     <div id="related-box">
