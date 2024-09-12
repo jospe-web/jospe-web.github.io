@@ -37,6 +37,8 @@
         </div>
     </div>
 </div>
+
+{% if page.tags > 0 %}
 <div class="tag-box">
     {%- for page_tag in page.tags -%}
         <span class="tag theme-{{ forloop.index0 | modulo: 3 }}" contentID="{{ page_tag }}">
@@ -44,6 +46,8 @@
         </span>
     {%- endfor -%}
 </div>
+{% endif %}
+
 <main>
     {{ content }}
     <!-- see https://giscus.app/ -->
