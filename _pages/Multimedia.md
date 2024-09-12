@@ -9,15 +9,8 @@ comments: false
 relatedpubs: false
 ---
 
-{% assign gallerypic = 
-  [
-    { "date": "1-1-2020", "caption": "Prueba ene 2020", "image": "orquesta1.jpg"}
-  ] 
-%}
-
-
 {% assign number_printed = 0 %}
-{% for teampic in gallerypic %}
+{% for teampic in site.images.gallery.gallerylist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
