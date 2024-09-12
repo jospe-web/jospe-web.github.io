@@ -19,8 +19,8 @@ relatedpubs: false
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  {{ teampic.date }}
-  {{ teampic.caption }}
+  <h2> {{ teampic.date }} </h2>
+  <h3> {{ teampic.caption }} </h3>
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ teampic.image }}" class="img-responsive" width="100%" style="float: bottom" />
   <ul style="overflow: hidden">
   </ul>
