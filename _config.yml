@@ -50,4 +50,4 @@ defaults:
 # Markdown newline activator 
 kramdown:
   input: GFM
-  hard_wrap: false
+  hard_wrap: true
