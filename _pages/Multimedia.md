@@ -12,7 +12,7 @@ relatedpubs: false
 
 Probando multimedia
 {% assign number_printed = 0 %}
-{% for teampic in site.images.gallery.gallerylist %}
+{% for teampic in site.data.gallerylist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
