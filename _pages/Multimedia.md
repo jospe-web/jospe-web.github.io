@@ -9,8 +9,6 @@ comments: false
 relatedpubs: false
 ---
 
-
-Probando multimedia
 {% assign number_printed = 0 %}
 {% for teampic in site.data.gallerylist %}
 
@@ -21,8 +19,8 @@ Probando multimedia
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <h4>{{ teampic.date }}</h4>
-  <h5>{{ teampic.caption }}</h5>
+  # {{ teampic.date }}
+  # {{ teampic.caption }}
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ teampic.image }}" class="img-responsive" width="100%" style="float: bottom" />
   <ul style="overflow: hidden">
   </ul>
