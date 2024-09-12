@@ -31,7 +31,7 @@
         {% endif %}
     {% endfor %}
 
-    {% assign first_level_pages = first_level_pages | sort: 'url' %}
+    {% assign first_level_pages = first_level_pages | sort: 'order' %}
     {% assign second_level_pages = second_level_pages | sort: 'url' %}
     {% assign third_level_pages = third_level_pages | sort: 'url' %}
 
