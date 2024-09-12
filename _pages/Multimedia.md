@@ -1,5 +1,5 @@
 ---
-title: Galería
+title: Multimedia
 date: 1900-01-01
 order: 3
 thumbnail: /images/orquesta1.jpg
@@ -11,7 +11,7 @@ relatedpubs: false
 
 {% assign gallerypic = 
   [
-    { "date": "", "caption": "", "image": ""}
+    { "date": "1-1-2020", "caption": "Prueba ene 2020", "image": "orquesta1.jpg"}
   ] 
 %}
 
@@ -28,7 +28,7 @@ relatedpubs: false
 <div class="col-sm-6 clearfix">
   <h4>{{ teampic.date }}</h4>
   <h5>{{ teampic.caption }}</h5>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/{{ teampic.image }}" class="img-responsive" width="100%" style="float: bottom" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ teampic.image }}" class="img-responsive" width="100%" style="float: bottom" />
   <ul style="overflow: hidden">
   </ul>
 </div>
